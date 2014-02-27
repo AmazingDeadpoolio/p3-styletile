@@ -1,28 +1,42 @@
-/* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+:root {
+	background-color: black;
+	color: white;
+	font-family: 'Futura', sans-serif;
 }
 
-/* Layout for Style Tile*/
-section {
-	margin: 20px 0;
+h1 {
+	color: white;
+	font-family: 'Red October', sans-serif;
+	background-color: black;
+	text-transform: uppercase;
+	padding: 10px;
+	display: block;
+	-webkit-text-stroke: 3px #a61412;
 }
 
-.color-1,
-.color-2,
-.color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
-	border: 1px solid #000;
-	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+h2 {
+	color: white;
+	font-family: 'Red October', sans-serif;
+	background-color: black;
+	text-transform: uppercase;
+	padding: 10px;
+	display: block;
+	-webkit-text-stroke: 3px #a61412;
 }
 
+h3 {
+	color: white;
+	font-family: 'Futura', sans-serif;
+	background-color: black;
+	padding: 10px;
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+}
+
+a {
+	text-decoration: none;
+	color: #a61412;
+}
+
+img {
+	margin-top: 10px;
 }
