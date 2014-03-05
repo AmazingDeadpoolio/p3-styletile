@@ -17,6 +17,23 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background-color: #a61412;
+}
+
+.color-2 {
+	background-color: #fff;
+}
+
+.color-3 {
+	background-color: #000;
+}
+
+.pattern-1 {
+	background-color: #fff;
+	border: 5px solid #a61412;
+}
+
 /* My CSS */
 
 body {
@@ -34,8 +51,6 @@ h1, h2 {
 	display: block;
 	-webkit-text-stroke: 2px #a61412;
 }
-
-
 
 h3 {
 	color: white;
