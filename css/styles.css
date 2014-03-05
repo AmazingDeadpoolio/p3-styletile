@@ -1,10 +1,31 @@
+/* Palette CSS */
+
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #fff;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/* My CSS */
+
 body {
 	background-color: black;
 	color: white;
 	font-family: 'Futura', sans-serif;
 }
 
-h1 {
+h1, h2 {
 	color: white;
 	font-family: 'Red October', sans-serif;
 	background-color: black;
@@ -14,15 +35,7 @@ h1 {
 	-webkit-text-stroke: 2px #a61412;
 }
 
-h2 {
-	color: white;
-	font-family: 'Red October', sans-serif;
-	background-color: black;
-	text-transform: uppercase;
-	padding: 10px;
-	display: block;
-	-webkit-text-stroke: 2px #a61412;
-}
+
 
 h3 {
 	color: white;
