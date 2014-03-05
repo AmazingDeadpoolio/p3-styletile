@@ -1,4 +1,4 @@
-:root {
+body {
 	background-color: black;
 	color: white;
 	font-family: 'Futura', sans-serif;
@@ -39,4 +39,14 @@ a {
 
 img {
 	margin-top: 10px;
+}
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../assets/red_october-regular-webfont.woff');
+}
+
+section > div {
+	background-color: #fff;
+	border: 1px 1px 1px 1px, white;
 }
