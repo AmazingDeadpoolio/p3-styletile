@@ -46,7 +46,3 @@ img {
 	src: url('../assets/red_october-regular-webfont.woff');
 }
 
-section > div {
-	background-color: #fff;
-	border: 1px 1px 1px 1px, white;
-}
