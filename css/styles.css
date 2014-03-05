@@ -15,18 +15,37 @@ section {
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	transition: all .5s;
 }
 
 .color-1 {
 	background-color: #a61412;
 }
 
+.color-1:hover {
+	height: 100px;
+	width: 100px;
+	transition: all .5s;
+}
+
 .color-2 {
 	background-color: #fff;
 }
 
+.color-2:hover {
+	height: 100px;
+	width: 100px;
+	transition: all .5s;
+}
+
 .color-3 {
 	background-color: #000;
+}
+
+.color-3:hover {
+	height: 100px;
+	width: 100px;
+	transition: all .5s;
 }
 
 /* My CSS */
@@ -48,7 +67,7 @@ h1, h2 {
 }
 
 h3 {
-	color: white;
+	color: #a61412;
 	font-family: 'Futura', sans-serif;
 	background-color: black;
 	padding: 10px;
@@ -68,4 +87,3 @@ img {
 	font-family: 'Red October';
 	src: url('../assets/red_october-regular-webfont.woff');
 }
-
